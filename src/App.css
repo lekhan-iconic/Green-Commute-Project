@@ -1,0 +1,29 @@
+.weather-container {
+  background-image: url("../src/images/download.jpeg");
+  background-size: cover;
+  background-position: center;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home {
+  margin: 0;
+  padding: 0;
+  background-image: url("../src/images/api.webp");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: red;
+}
+.products {
+  background-image: url("../src/images/products.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
