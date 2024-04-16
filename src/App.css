@@ -148,7 +148,31 @@ p,
   background-image: url("../src/images/emission.jpg");
   background-size: cover;
   background-position: center;
+  min-height: 90vh;
+}
+.abouts {
+  background-image: url("../src/images/aboutus.jpg");
+  background-size: cover;
+  background-position: center;
   min-height: 100vh;
+}
+.services {
+  background-image: url("../src/images/service.avif");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+.features {
+  background-image: url("../src/images/featuresbg.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+.contacts {
+  background-image: url(images/contact.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
 }
 .carousel-container {
   background-color: black;

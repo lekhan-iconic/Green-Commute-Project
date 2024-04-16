@@ -33,6 +33,12 @@ const Home = () => {
             data-bs-slide-to="3"
             aria-label="Slide 4" // Corrected to "Slide 3" for the third slide
           ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="4"
+            aria-label="Slide 5" // Corrected to "Slide 3" for the third slide
+          ></button>
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
@@ -43,9 +49,11 @@ const Home = () => {
               style={{ height: "650px" }}
             />
             <div className="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>
-                Some representative placeholder content for the first slide.
+              <h5 className="text-warning fs-12 fw-bold">Greenary World</h5>
+              <p className="text-white">
+                Immerse in lush landscapes and eco-friendly initiatives
+                promoting sustainability, connecting communities toward a
+                greener future for generations.
               </p>
             </div>
           </div>
@@ -57,9 +65,12 @@ const Home = () => {
               style={{ height: "650px" }}
             />
             <div className="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
+              <h5 className="fs-12 fw-bold">
+                Plant the Trees and Save the Lifes
+              </h5>
               <p>
-                Some representative placeholder content for the second slide.
+                Join hands in planting trees, nurturing life and preserving our
+                planet's delicate balance for a healthier, sustainable future..
               </p>
             </div>
           </div>
@@ -71,23 +82,44 @@ const Home = () => {
               style={{ height: "650px" }}
             />
             <div className="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
+              <h5>Green environment</h5>
               <p>
-                Some representative placeholder content for the third slide.
+                Step into a world of sustainable living, where a green
+                environment thrives, fostering cleaner air, healthier
+                ecosystems, and a brighter future for generations to come..
               </p>
             </div>
           </div>
           <div className="carousel-item">
             <img
-              src="greenhome.webp"
+              src="green.webp"
               className="d-block w-100"
               alt="..."
               style={{ height: "650px" }}
             />
             <div className="carousel-caption d-none d-md-block">
-              <h5>Fourth slide label</h5>
+              <h5 className="fs-12 fw-bold">
+                Plant the Trees and Save the Lifes
+              </h5>
+              <p className="text-info">
+                Join hands in planting trees, nurturing life and preserving our
+                planet's delicate balance for a healthier, sustainable future..
+              </p>{" "}
+            </div>
+          </div>
+          <div className="carousel-item">
+            <img
+              src="world-environment.png"
+              className="d-block w-100"
+              alt="..."
+              style={{ height: "650px" }}
+            />
+            <div className="carousel-caption d-none d-md-block">
+              <h5>Beatiful World with Greenary</h5>
               <p>
-                Some representative placeholder content for the fourth slide.
+                Embrace the beauty of a verdant world, where lush greenery
+                harmonizes with the environment, creating a picturesque
+                landscape for all to enjoy..
               </p>
             </div>
           </div>

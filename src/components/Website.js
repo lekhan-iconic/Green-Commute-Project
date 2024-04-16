@@ -59,6 +59,7 @@ const Website = () => {
       <h1 class="title-about">About US</h1>
 
       <div class="about-info">
+        <h1>Welcome to the Greenary World </h1>
         <h1>Green Commute and Sustainable Transportation APP</h1>
         <br /><br />
         <p>
@@ -136,7 +137,7 @@ const Website = () => {
             fosters social connections, enhances convenience, and optimizes
             vehicle usage for sustainable commuting
           </p>
-          <button type="submit" class="button"><a href="/login">Read More</a></button>
+          <button type="submit" class="buttons"><a href="/login">Read More</a></button>
         </div>
         <div class="boxs">
           <h1 class="text-center">Bike Riding</h1>
@@ -146,7 +147,7 @@ const Website = () => {
             Bike riding encourages active lifestyles, fosters community, and
             contributes to a greener, more sustainable environment.
           </p>
-          <button type="submit" class="button"><a href="/login">Read More</a></button>
+          <button type="submit" class="buttons"><a href="/login">Read More</a></button>
         </div>
         <div class="boxs">
           <h1 class="text-center">Biking Routes</h1>
@@ -157,7 +158,7 @@ const Website = () => {
             apps to navigate efficiently, promoting biking as a viable mode of
             transportation and recreation.
           </p>
-          <button type="submit" class="button"><a href="/login">Read More</a></button>
+          <button type="submit" class="buttons"><a href="/login">Read More</a></button>
         </div>
       </div>
     </section>
