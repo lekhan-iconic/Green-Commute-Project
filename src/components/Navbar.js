@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg bg-secondary ">
+      <nav className="navbar navbar-expand-lg rounded bg-success">
         <div className="container-fluid">
-          <a className="navbar-brand fw-bold" href="#">
-            Application Program Interface
-          </a>
+          <Link className="navbar-brand fw-bold" to="/home">
+            MERN
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -23,40 +23,41 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link className="nav-link text-warning fs-5 fw-bold" to="/">
+                <Link className="nav-link text-warning fs-5 fw-bold" to="/home">
                   Home
                 </Link>
               </li>
               <li className="nav-item">
                 <Link
                   className="nav-link text-warning fs-5 fw-bold"
-                  to="/products"
+                  to="/about"
                 >
-                  Products
+                  About
+                </Link>
+              </li>
+
+              <li className="nav-item">
+                <Link
+                  className="nav-link text-warning fs-5 fw-bold"
+                  to="/services"
+                >
+                  Services
                 </Link>
               </li>
               <li className="nav-item">
                 <Link
                   className="nav-link text-warning fs-5 fw-bold"
-                  to="/weather"
+                  to="/features"
                 >
-                  Weather
+                  Features
                 </Link>
               </li>
               <li className="nav-item">
                 <Link
                   className="nav-link text-warning fs-5 fw-bold"
-                  to="/users"
+                  to="/contact"
                 >
-                  Users
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link
-                  className="nav-link text-warning fs-5 fw-bold"
-                  to="/randomusers"
-                >
-                  Random Users
+                  Contact
                 </Link>
               </li>
             </ul>

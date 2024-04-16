@@ -28,7 +28,7 @@ const Weather = () => {
 
   return (
     <div>
-      {/* <Navbar /> */}
+      <Navbar />
       <div className="weather-container">
         <div className="text-center">
           <h1 className="text-success-emphasis fs-12 fw-bold">Weather-App</h1>
